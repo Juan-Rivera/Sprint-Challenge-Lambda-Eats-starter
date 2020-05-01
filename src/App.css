@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container label{
+  background-color: rgba(221, 54, 54, 0.747);
+  display: flex;
+  height: 3em;
+  align-items: center;
+  padding-left: 1em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  color: blue;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.toppingsC{
+  
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 1em;
+  padding-left: 1em;
+}
+header{
+  padding-left: 1em;
+}
+h1{
+  font-family: 'Shadows Into Light', cursive;
+}
+h2{
+  font-size: 1.5em;
+  font-family: 'Shadows Into Light', cursive;
+}
+.inputs{
+  padding-left: 1em;
+}
+.saucesC{
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

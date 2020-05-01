@@ -15,8 +15,8 @@ function SizeComp(props) {
         >
           <option defaultValue=''>Select</option>
           <option value='small'>Small</option>
-          <option value='small'>Medium</option>
-          <option value='small'>Large</option>
+          <option value='medium'>Medium</option>
+          <option value='large'>Large</option>
         </select>
         </label>
     )
